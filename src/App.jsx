@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import uuid from 'uuid';
+
 import Header from './Components/Header';
 import AddProject from './Components/AddProject';
 import Projects from './Components/Projects';
+
 import './App.css';
 
 class App extends Component {
@@ -55,7 +57,8 @@ class App extends Component {
 		return (
 			<div className="App">
 				<Header />
-				<AddProject addProject={this.addProject} /><br />
+				<AddProject addProject={this.addProject} />
+				<br />
 				<Projects
 					projects={this.state.projects}
 					onDelete={this.onDelete}
