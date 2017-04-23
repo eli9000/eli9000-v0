@@ -1,0 +1,40 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	"editor.renderIndentGuides": true,
+	"editor.rulers": [
+		80
+	],
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"eslint.nodePath": "/usr/local",
+	"eslint.workingDirectories": [
+		"src/"
+	],
+	"files.associations": {
+			"*.jsx": "javascriptreact"
+	},
+	"todohighlight.defaultStyle": {
+		// "backgroundColor": "yellow",
+		"color": "black"
+		// "overviewRulerColor": "grey"
+	},
+	"todohighlight.keywords": [
+		{
+			"text": "NOTE",
+			"color": "gray",
+			"backgroundColor": "white",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": "REVIEW",
+			"color": "white",
+			"backgroundColor": "orange"
+		},
+		{
+			"text": "XXX",
+			"color": "white",
+			"backgroundColor": "red"
+		},
+		"HACK"
+	],
+}
