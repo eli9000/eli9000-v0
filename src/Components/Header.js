@@ -3,11 +3,19 @@ import React, { Component } from 'react';
 class Header extends Component {
 	render() {
 		return (
-			<div className="flex-container">
-				<div className="flex-item">flex item 1</div>
-				<div className="flex-item">flex item 2</div>
-				<div className="flex-item">flex item 3</div>
-			</div>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li className="dropdown">
+					<a className="dropbtn">Kewl Links</a>
+					<div className="dropdown-content">
+						<a href="#">How big will this go?</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</li>
+			</ul>
 
 		);
 	}
