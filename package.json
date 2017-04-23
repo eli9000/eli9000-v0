@@ -1,5 +1,6 @@
 {
   "name": "eli-react-app",
+  "description": "A big dumb app for a big dumb man.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
