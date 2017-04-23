@@ -1,0 +1,102 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "sourceType": "module",
+  "extends": [
+    "airbnb",
+		'react-app',
+		"plugin:react/recommended",
+  ],
+  "plugins": [
+    # "babel",
+		# "flowtype",
+    "import",
+    "jsx-a11y",
+    "react",
+  ],
+
+  # "globals": {
+	# 	"google": false,
+  # },
+
+  "rules": {
+		# "camelcase": "off",
+    "indent": ['warn', 'tab', {
+      "VariableDeclarator": {
+        "var": 2,
+        "let": 2,
+        "const": 3,
+      }
+    }],
+    # "indent": [2, 2],
+    "arrow-body-style": 0,
+		"arrow-parens": [2, "always", { "requireForBlockBody": false }],
+    "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+    # "brace-style": ["error", "allman", { "allowSingleLine": true }],
+    # "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
+		"class-methods-use-this": 1,
+    "eol-last": 2,
+    "func-names": 0,
+    # "key-spacing": ["error", {
+    #   "align": "colon"
+    # }],
+    "max-len": ["warn", 80, 2, {
+      "ignoreUrls": true,
+      "ignorePattern": "['\"]",
+      "ignoreComments": true,
+      "ignoreTrailingComments": true
+    }],
+    "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
+    "no-multi-spaces": ["error", {
+      "exceptions": {
+        "ImportDeclaration": true,
+        "VariableDeclarator": true
+      }
+    }],
+		"no-multiple-empty-lines": "off",
+		"no-tabs": 0,
+    "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+    "no-unused-vars": ["warn", {
+      "vars": "local",
+      "args": "after-used"
+    }],
+    "prefer-arrow-callback": 0,
+    "spaced-comment": 0,
+
+
+		##################################################################### IMPORT
+		"import/extensions": 0,
+    "import/no-absolute-path": 0,
+		"import/no-extraneous-dependencies": 0,
+		# "import/no-unresolved": ['error', { ignore: ['^meteor/', '^/'] }],
+
+
+		################################################################### JSX-A11Y
+    "jsx-a11y/no-static-element-interactions": 0,
+		"jsx-a11y/label-has-for": 0,
+
+
+    ###################################################################### REACT
+    # "react/jsx-closing-bracket-location": [1, "tag-aligned"],
+    "react/jsx-closing-bracket-location": [1, "line-aligned"],
+    # "react/jsx-closing-bracket-location": [1, "props-aligned"],
+    # "react/jsx-closing-bracket-location": [1, "after-props"],
+    "react/jsx-equals-spacing": 1,
+    "react/jsx-indent": [2, 'tab'],
+    "react/jsx-indent-props": ["off", "tab"],
+    # "react/jsx-indent-props": [2, "tab"],
+    # "react/jsx-indent-props": [2, 2],
+    "react/jsx-no-bind": ["off", { "allowBind": true }],
+    "react/jsx-uses-react": 1,
+		"react/no-array-index-key": 1,
+		"react/no-string-refs": 1,
+		"react/no-unused-prop-types": 0,
+    "react/prop-types": [0],
+		"react/require-default-props": 1,
+		"react/sort-comp": 0
+  }
+}
