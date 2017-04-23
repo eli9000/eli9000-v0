@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 
 class Header extends Component {
-  render() {
-    return (
-        <div className="header">
-            <h2>Hello, and welcome... {this.props.name}</h2>
-        </div>
-    );
-  }
+	render() {
+		return (
+			<div className="flex-container">
+				<div className="flex-item">flex item 1</div>
+				<div className="flex-item">flex item 2</div>
+				<div className="flex-item">flex item 3</div>
+			</div>
+
+		);
+	}
 }
 
 export default Header;
