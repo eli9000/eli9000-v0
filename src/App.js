@@ -21,8 +21,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header name={this.state.name} />
-
-        <input onChange={this.onChange} value={this.state.name} placeholder="Type Name here..."/>
+					<div className="body">
+        		<input onChange={this.onChange} value={this.state.name} placeholder="Type Name here..."/>
+					</div>
       </div>
     );
   }
