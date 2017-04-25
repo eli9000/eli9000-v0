@@ -6,7 +6,7 @@ class Bio extends Component {
 			<div className="bio">
 				<h1>BIO: eDot Dev McWizzy</h1>
 				<br />
-				<img src="./images/img_3306.jpg" alt='' />
+				<img src="/images/img_3306.jpg" alt='' />
 				<div className="container">
 					<div className="row">
 						<div className="col-sm-4">
