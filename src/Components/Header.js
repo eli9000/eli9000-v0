@@ -1,22 +1,27 @@
 import React, { Component } from 'react';
 
 class Header extends Component {
+	constructor() {
+		super();
+		this.state = {
+			value: true,
+		};
+	}
+
+	handleck(e) {
+		return document.getElementById('test').innerHTML = Date();
+	}
 	render() {
 		return (
-			<ul>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#about">About Me</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li className="dropdown">
-					<a className="dropbtn">Kewl Links</a>
-					<div className="dropdown-content">
-						<a href="#">How big will this go?</a>
-						<a href="#">Link 2</a>
-						<a href="#">Link 3</a>
-					</div>
-				</li>
-			</ul>
-
+			<div className="header">
+				<div className="header-content">
+					<a href="#home">Home</a>
+					<a href="#bio">Bio</a>
+					<a href="#dev">Dev Skills</a>
+					<a href="#projects">Projects</a>
+					<a href="#contact">Contact</a>
+				</div>
+			</div>
 		);
 	}
 }

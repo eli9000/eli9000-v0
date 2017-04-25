@@ -1,71 +1,92 @@
+h3, h1 {
+	margin: 0;
+}
+
 .header {
-    display: inline-block;
-    font-size: 40px;
-    color: white;
-    background-color: gray;
-		width: 100%;
+	overflow: hidden;
+	background-color: #444444;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+}
+
+.header-content a {
+	background-color: #444444;
+	float: left;
+	display: block;
+	border: 1px solid white;
+	border-radius: 4px;
+	color: #f3f3f3;
+	text-align: center;
+	margin: 6px 3px;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.header-content a:hover {
+	background-color: red;
+	animation: test 5s 5;
 }
 
 .body {
-	background: url('http://i.imgur.com/QQL2Htb.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 900px;
-	width: auto;
-	background-clip: content-box;
+	text-align: center;
+		margin-top: 62px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+.bio {
+	height: 300px;
+	width: 100%;
+	background-color: purple;
+	color: white;
+	z-index: 1;
+	padding-top: 70px;
 }
 
-li {
-    float: left;
+.dev {
+	height: 400px;
+	width: 100%;
+	background-color: turquoise;
+	padding-top: 15px;
 }
 
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.footer {
+	overflow: hidden;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+.footer p {
+	background-color: lightgreen;
+	color: #333333;
+	margin: auto;
+	padding: 15px 0 15px 0;
+	height: auto;
+	font-size: 15px;
 }
 
-li.dropdown {
-    display: inline-block;
-		float: right;
+@keyframes test {
+	50% {font: 40px bold;}
+	50% {background-color: yellow;}
 }
 
-.dropdown-content {
-    display: none;
-    position: fixed;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-		right: 0;
+.col-sm-4 {
+	border: 2px solid white;
+	padding: 5px;
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+.col-sm-4 h3 {
+	border-bottom: 3px solid white;
+	color: gray;
+	background-color: yellow;
+	margin-bottom: 10px;
 }
 
-.dropdown-content a:hover {
-	background-color: pink;
-	color: blue;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.col-sm-4 h3:hover {
+	background-color: beige;
 }
