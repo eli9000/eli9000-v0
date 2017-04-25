@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Bio from './Bio';
-import Devskills from './Devskills'
+import Devskills from './Devskills';
+import Projects from './Projects';
 
 class Body extends Component {
 	render() {
@@ -8,6 +9,7 @@ class Body extends Component {
 			<div className="body">
 				<Bio />
 				<Devskills />
+				<Projects />
 			</div>
 		);
 	}
