@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Devskills extends Component {
 	render() {
 		return (
-			<div className="dev">
+			<div className="dev" id="dev">
 				<h1>Dev Skills that I don't totally fucking suck at:</h1>
 				<hr />
 				<div className="dev-pics">
