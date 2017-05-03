@@ -10,7 +10,6 @@ class Projects extends Component {
 				<hr />
 				<div className="project-list">
 					<ul>
-						<li>test</li>
 						{/*{residents && residents.length && residents.map((url) => console.log(url))}*/}
 						{residents && residents.length && residents.map((url) =>
 							<li>

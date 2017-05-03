@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import Stringify from './Stringify.jsx';
 
 class Bio extends Component {
-
 	render() {
 		return (
-			<div className="bio">
+			<div className="bio" id="bio">
 				<h1>eDot Dev {this.props.name}</h1>
 				<br />
 				<img src="/images/img_3306.jpg" alt="" />
@@ -33,3 +31,4 @@ class Bio extends Component {
 }
 
 export default Bio;
+

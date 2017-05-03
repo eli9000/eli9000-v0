@@ -2,6 +2,16 @@ h3, h1 {
 	margin: 0;
 }
 
+/*APP COMPONENT ish goes here! -----------------------*/
+
+.app {
+	padding: 0px 40px;
+}
+
+/*BODY COMPONENT ish goes here! -----------------------*/
+
+
+
 /*HEADER COMPONENT ish goes here! -----------------------*/
 
 .header {
@@ -9,36 +19,39 @@ h3, h1 {
 	background-color: #444444;
 	position: fixed;
 	top: 0px;
-	width: 100%;
+	left: 40px;
+	right: 40px;
 	height: auto;
 	z-index: 1;
+	text-align: center;
 }
 
-.header-content a {
-	background-color: #444444;
+.header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.header li a {
 	float: left;
-	display: block;
-	border: 1px solid white;
-	border-radius: 4px;
-	color: #f3f3f3;
-	text-align: center;
-	margin: 6px 3px;
-	padding: 14px 16px;
+	display: inline-block;
+	color: #fff;
+	padding: 8px 16px;
 	text-decoration: none;
 	font-size: 17px;
-	cursor: pointer;
+	width: 120px;
+	text-align: center;
 }
 
-.header-content a:hover {
+.header a:hover {
 	background-color: red;
-	animation: test 5s 5;
 }
 
 /*BODY COMPONENT ish goes here! -----------------------*/
 
 .body {
 	text-align: center;
-		margin-top: 62px;
 }
 
 /*BIO COMPONENT ish goes here! ------------------------*/
@@ -46,11 +59,6 @@ h3, h1 {
 .bio {
 	height: auto;
 	width: 100%;
-	background-image: url(http://blog.flatironschool.com/wp-content/uploads/2013/11/Ruby-and-JavaScript.jpg);
-	background-attachment: fixed;
-	background-position-y: 60px;
-	background-repeat: no-repeat;
-	background-size: contain;
 	background-color: #272727;
 	color: white;
 	z-index: 1;
@@ -75,7 +83,7 @@ h3, h1 {
 /*DEV COMPONENT ish goes here! -----------------------------*/
 
 .dev {
-	height: auto;
+	height: 700px;
 	width: 100%;
 	color: white;
 	background-color: #999999;
@@ -97,6 +105,7 @@ h3, h1 {
 	font-family: Courier New, Courier, monospace;
 	font-weight: bold;
 	margin: 0 auto;
+	height: 500px;
 	width: 100%;
 	text-align: center;
 }
@@ -117,6 +126,13 @@ h3, h1 {
 	background-color: #555555;
 }
 
+/*CONTACT COMPONENT ish goes here! --------------------------*/
+
+.contact {
+	height: 600px;
+	background-color: #999999
+}
+
 /*FOOTER COMPONENT ish goes here! --------------------------*/
 
 .footer {
@@ -135,14 +151,3 @@ h3, h1 {
 }
 
 /*Ummmmmm... Place for transtition functions? -------------*/
-
-@keyframes test {
-	50% {font: 40px bold;}
-	50% {background-color: yellow;}
-}
-
-@media only screen and (max-device-width: 500px) {
-	.bio {
-		background-attachment: scroll;
-	}
-}

@@ -1,7 +1,12 @@
+// Lib
 import React, { Component } from 'react';
+
+// Components
 import Header from './Components/Header.jsx';
 import Body from './Components/Body.jsx';
 import Footer from './Components/Footer.jsx';
+
+// CSS
 import './App.css';
 
 
@@ -33,6 +38,5 @@ class App extends Component {
 		);
 	}
 }
-
 
 export default App;
