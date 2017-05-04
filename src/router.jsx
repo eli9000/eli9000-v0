@@ -1,24 +1,28 @@
 import React from 'react';
 import {
 	BrowserRouter as Router,
-	Route,
-	Link
+	Route
 } from 'react-router-dom';
 
 // Import Components
-import App from '../App.jsx';
-import Header from './Components/Header.jsx';
-import Body from './Components/Body.jsx';
-import Footer from './Components/Footer.jsx';
+import App from './App.jsx';
+import Home from './Components/Home.jsx';
+import About from './Components/About.jsx';
+import Devskills from './Components/Devskills.jsx';
+import Projects from './Components/Projects.jsx';
+import Contact from './Components/Contact.jsx';
 
 // Define const routes
-const routes = () => (
+const routes = (
 	<Router>
 		<App>
-			<Route path="/" component={Home} />
-			<Route path="about" component={About} />
-			<Route path="" component={} />
-			<Route path="" component={} />
+			<Route exact path="/" component={Home} />
+			<Route path="/about" component={About} />
+			<Route path="/devskills" component={Devskills} />
+			<Route path="/projects" component={Projects} />
+			<Route path="/contact" component={Contact} />
 		</App>
 	</Router>
 );
+
+export default routes;

@@ -2,20 +2,17 @@ import React, { Component } from 'react';
 
 class Projects extends Component {
 	render() {
-		const { residents } = this.props;
-
 		return (
 			<div className="projects" id="projects">
 				<h1>Here are some projects I'm fucking up:</h1>
 				<hr />
 				<div className="project-list">
 					<ul>
-						{/*{residents && residents.length && residents.map((url) => console.log(url))}*/}
-						{residents && residents.length && residents.map((url) =>
-							<li>
-								{url}
-							</li>,
-						)}
+						<li>This fucking page</li>
+						<li>Bluffdale HAM</li>
+						<li>Don't be trippin!</li>
+						<li>Locksmith website</li>
+						<li>Dev McWizzy Tees</li>
 					</ul>
 				</div>
 			</div>
