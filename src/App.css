@@ -5,27 +5,29 @@ h3, h1 {
 /*APP COMPONENT ish goes here! -----------------------*/
 
 .app {
-	height: 500px;
+	height: auto;
 	width: auto;
-	padding: 100px 100px;
-	background-color: lightblue;
+	margin: 50px 100px;
+	background-color: #55ffff;
+	border: 1px solid black;
 }
 
 .app-h1 {
 	background-color: white;
+	padding: 20px 0;
+	font-weight: bolder;
 }
 
-/*BODY COMPONENT ish goes here! -----------------------*/
-
-
+.content {
+	padding: 30px 20px;
+}
 
 /*HEADER COMPONENT ish goes here! -----------------------*/
 
 .header {
 	overflow: hidden;
-	background-color: #444444;
+	background-color: #333333;
 	height: auto;
-	z-index: 1;
 }
 
 .header ul {
@@ -47,25 +49,39 @@ h3, h1 {
 }
 
 .header a:hover {
-	background-color: red;
+	background-color: lightslategray;
+}
+
+.active {
+	background-color: blue;
 }
 
 /*HOME COMPONENT ish goes here! -----------------------*/
 
 .home {
+	background-color: #333333;
+	padding: 40px 40px;
+	color: white;
+	font-family: Courier New, Courier, monospace;
+	font-weight: bold;
+	margin: 0 auto;
+	height: 500px;
+	width: 100%;
 	text-align: center;
 }
 
 /*ABOUT COMPONENT ish goes here! ------------------------*/
 
 .about {
-	height: auto;
-	width: 100%;
-	background-color: #272727;
+	background-color: #333333;
+	padding: 40px 40px;
 	color: white;
-	z-index: 1;
-	padding-top: 70px;
-	padding-bottom: 40px;
+	font-family: Courier New, Courier, monospace;
+	font-weight: bold;
+	margin: 0 auto;
+	height: 500px;
+	width: 100%;
+	text-align: center;
 }
 
 .about img {
@@ -80,11 +96,14 @@ h3, h1 {
 /*DEV COMPONENT ish goes here! -----------------------------*/
 
 .devskills {
-	height: 700px;
-	width: 100%;
+	background-color: #333333;
+	padding: 40px 40px;
 	color: white;
-	background-color: #999999;
-	padding: 40px 0;
+	font-family: Courier New, Courier, monospace;
+	font-weight: bold;
+	margin: 0 auto;
+	height: 500px;
+	width: 100%;
 	text-align: center;
 }
 
@@ -97,7 +116,7 @@ h3, h1 {
 
 .projects {
 	background-color: #333333;
-	padding: 40px 0;
+	padding: 40px 40px;
 	color: white;
 	font-family: Courier New, Courier, monospace;
 	font-weight: bold;
@@ -126,8 +145,15 @@ h3, h1 {
 /*CONTACT COMPONENT ish goes here! --------------------------*/
 
 .contact {
-	height: 600px;
-	background-color: #999999
+	background-color: #333333;
+	padding: 40px 40px;
+	color: white;
+	font-family: Courier New, Courier, monospace;
+	font-weight: bold;
+	margin: 0 auto;
+	height: 500px;
+	width: 100%;
+	text-align: center;
 }
 
 /*FOOTER COMPONENT ish goes here! --------------------------*/

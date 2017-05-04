@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Devskills extends Component {
 	render() {
 		return (
-			<div className="dev" id="dev">
-				<h1>Dev Skills that I don't totally fucking suck at:</h1>
+			<div className="devskills" id="devskills">
+				<h1>Dev Skills and Ranking</h1>
 				<hr />
 				<div className="dev-pics">
 					<img src="/images/htmlcssjs.png" alt='' />

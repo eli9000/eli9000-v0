@@ -4,7 +4,7 @@ class Projects extends Component {
 	render() {
 		return (
 			<div className="projects" id="projects">
-				<h1>Here are some projects I'm fucking up:</h1>
+				<h1>Projects I be Killin</h1>
 				<hr />
 				<div className="project-list">
 					<ul>

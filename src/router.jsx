@@ -15,6 +15,14 @@ import Contact from './Components/Contact.jsx';
 // Define const routes
 const routes = (
 	<Router>
+		{/*<Route component={App}>
+			<IndexRoute path="/" />
+			<Route exact path="/" component={Home} />
+			<Route path="about" component={About} />
+			<Route path="devskills" component={Devskills} />
+			<Route path="projects" component={Projects} />
+			<Route path="contact" component={Contact} />
+		</Route>*/}
 		<App>
 			<Route exact path="/" component={Home} />
 			<Route path="/about" component={About} />
