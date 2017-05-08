@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 // Routes
-import routes from './Router.jsx';
+import routes from './router.jsx';
 
 ReactDOM.render(
 	routes,
