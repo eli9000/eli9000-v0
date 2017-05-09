@@ -1,0 +1,9 @@
+
+@import "./stylesheets/_variables.scss";
+
+.App {
+	background-color: $primary;
+	> div {
+		background-color: white;
+	}
+}
