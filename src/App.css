@@ -1,176 +1,152 @@
+/*******************************************************************************
+																	STYLING
+*******************************************************************************/
+/*******************************************************************************
+																	MIXINS
+*******************************************************************************/
 h3, h1 {
-	margin: 0;
-}
+  margin: 0; }
 
 /*APP COMPONENT ish goes here! -----------------------*/
-
 .app {
-	height: auto;
-	width: auto;
-	margin: 50px 100px;
-	background-color: #55ffff;
-	border: 1px solid black;
-}
+  height: auto;
+  width: auto;
+  margin: 50px 100px;
+  background-color: #55ffff;
+  border: 1px solid black; }
 
 .app-h1 {
-	background-color: white;
-	padding: 20px 0;
-	font-weight: bolder;
-}
+  font-family: Courier New, Courier, monospace;
+  text-align: left;
+  background-color: white;
+  padding: 20px 50px;
+  font-weight: bolder; }
 
 .content {
-	padding: 30px 20px;
-}
+  padding: 30px 20px; }
 
 /*HEADER COMPONENT ish goes here! -----------------------*/
-
 .header {
-	overflow: hidden;
-	background-color: #333333;
-	height: auto;
-}
+  overflow: hidden;
+  background-color: #333333;
+  height: auto; }
 
 .header ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
 
 .header li a {
-	float: left;
-	display: inline-block;
-	color: #fff;
-	padding: 8px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	width: 120px;
-	text-align: center;
-}
+  float: left;
+  display: inline-block;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 120px;
+  text-align: center; }
 
 .header a:hover {
-	background-color: lightslategray;
-}
+  background-color: lightslategray; }
 
 .active {
-	background-color: blue;
-}
+  background-color: blue; }
 
 /*HOME COMPONENT ish goes here! -----------------------*/
-
 .home {
-	background-color: #333333;
-	padding: 40px 40px;
-	color: white;
-	font-family: Courier New, Courier, monospace;
-	font-weight: bold;
-	margin: 0 auto;
-	height: 500px;
-	width: 100%;
-	text-align: center;
-}
+  background-color: #333333;
+  padding: 40px 40px;
+  color: white;
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 500px;
+  width: 100%;
+  text-align: center; }
 
 /*ABOUT COMPONENT ish goes here! ------------------------*/
-
 .about {
-	background-color: #333333;
-	padding: 40px 40px;
-	color: white;
-	font-family: Courier New, Courier, monospace;
-	font-weight: bold;
-	margin: 0 auto;
-	height: 500px;
-	width: 100%;
-	text-align: center;
-}
+  background-color: #333333;
+  padding: 40px 40px;
+  color: white;
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 500px;
+  width: 100%;
+  text-align: center; }
 
 .about img {
-	-webkit-transform: ;
-	height: 200px;
-	width: 200px;
-	border: 2px solid blue;
-	border-radius: 60px;
-	margin: 0 0 65px 0;
-}
+  height: 200px;
+  width: 200px;
+  border: 2px solid blue;
+  border-radius: 60px;
+  margin: 0 0 65px 0; }
 
 /*DEV COMPONENT ish goes here! -----------------------------*/
-
 .devskills {
-	background-color: #333333;
-	padding: 40px 40px;
-	color: white;
-	font-family: Courier New, Courier, monospace;
-	font-weight: bold;
-	margin: 0 auto;
-	height: 500px;
-	width: 100%;
-	text-align: center;
-}
+  background-color: #333333;
+  padding: 40px 40px;
+  color: white;
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 500px;
+  width: 100%;
+  text-align: center; }
 
 .dev-pics img {
-	height: 300px;
-	width: 500px;
-}
+  height: 300px;
+  width: 500px; }
 
 /*PROJECTS COMPONENT ish goes here! --------------------------*/
-
 .projects {
-	background-color: #333333;
-	padding: 40px 40px;
-	color: white;
-	font-family: Courier New, Courier, monospace;
-	font-weight: bold;
-	margin: 0 auto;
-	height: 500px;
-	width: 100%;
-	text-align: center;
-}
+  background-color: #333333;
+  padding: 40px 40px;
+  color: white;
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 500px;
+  width: 100%;
+  text-align: center; }
 
 .project-list {
-	display: inline-block;
-	width: 200px;
-}
+  display: inline-block;
+  width: 200px; }
 
 .projects li {
-	color: green;
-	list-style-type: none;
-	border-bottom: 1px solid white;
-}
+  color: green;
+  list-style-type: none;
+  border-bottom: 1px solid white; }
 
 .projects li:hover {
-	color: red;
-	background-color: #555555;
-}
+  color: red;
+  background-color: #555555; }
 
 /*CONTACT COMPONENT ish goes here! --------------------------*/
-
 .contact {
-	background-color: #333333;
-	padding: 40px 40px;
-	color: white;
-	font-family: Courier New, Courier, monospace;
-	font-weight: bold;
-	margin: 0 auto;
-	height: 500px;
-	width: 100%;
-	text-align: center;
-}
+  background-color: #333333;
+  padding: 40px 40px;
+  color: white;
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 500px;
+  width: 100%;
+  text-align: center; }
 
 /*FOOTER COMPONENT ish goes here! --------------------------*/
-
 .footer {
-	overflow: hidden;
-	width: 100%;
-	text-align: center;
-}
+  overflow: hidden;
+  width: 100%;
+  text-align: center; }
 
 .footer p {
-	background-color: #444444;
-	color: #ffffff;
-	margin: auto;
-	padding: 15px 0 15px 0;
-	height: auto;
-	font-size: 15px;
-}
-
-/*Ummmmmm... Place for transtition functions? -------------*/
+  background-color: #444444;
+  color: #ffffff;
+  margin: auto;
+  padding: 15px 0 15px 0;
+  height: auto;
+  font-size: 15px; }

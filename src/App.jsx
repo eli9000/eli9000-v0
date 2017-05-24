@@ -11,7 +11,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="app" id="app">
-				<h1 className="app-h1">Welcome to my site!</h1>
+				<h1 className="app-h1">eli9000.com</h1>
 				<div className="header">
 					<ul>
 						<li>
