@@ -1,6 +1,6 @@
 {
   "name": "eli-react-app",
-  "description": "A big dumb app for a big dumb man.",
+  "description": "Not cool man.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,8 +19,11 @@
   },
   "dependencies": {
     "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
     "react": "^15.5.2",
-    "react-dom": "^15.5.2"
+    "react-dom": "^15.5.2",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

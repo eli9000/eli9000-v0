@@ -1,30 +1,41 @@
+// Lib
 import React, { Component } from 'react';
-import Header from './Components/Header';
+import { NavLink } from 'react-router-dom';
+
+// Components
+
+// CSS
 import './App.css';
 
-
 class App extends Component {
-	constructor() {
-		super();
-
-		this.onChange = this.setName.bind(this);
-		this.state = { name: '' };
-	}
-
 	render() {
-
 		return (
-			<div className="App">
-				<Header name={this.state.name} />
-				<div className="body">
-
+			<div className="app" id="app">
+				<h1 className="app-h1">eli9000.com</h1>
+				<div className="header">
+					<ul>
+						<li>
+							<NavLink exact to="/" activeClassName="active">Home</NavLink>
+						</li>
+						<li>
+							<NavLink to="/about" activeClassName="active">About</NavLink>
+						</li>
+						<li>
+							<NavLink to="/devskills" activeClassName="active">Dev Skills</NavLink>
+						</li>
+						<li>
+							<NavLink to="/projects" activeClassName="active">Projects</NavLink>
+						</li>
+						<li>
+							<NavLink to="/contact" activeClassName="active">Contact</NavLink>
+						</li>
+					</ul>
+				</div>
+				<div className="content">
+					{this.props.children}
 				</div>
 			</div>
 		);
-	}
-
-	setName(e) {
-		this.setState({ name: e.target.value });
 	}
 }
 
